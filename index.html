@@ -152,6 +152,69 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-yrl-first-blog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/07/16/yrl-first-blog/">yrl-first-blog</a>
+    </h1>
+  
+
+        
+        <a href="/2018/07/16/yrl-first-blog/" class="archive-article-date">
+  	<time datetime="2018-07-16T07:03:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>正确写法：<br>deploy:<br>  type: git<br>  repository: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:liuxianan/liuxianan.github.io.git<br>  branch: master<br>错误写法：<br>deploy:<br>  type: github<br>  repository: <a href="https://github.com/liuxianan/liuxianan.github.io.git" target="_blank" rel="noopener">https://github.com/liuxianan/liuxianan.github.io.git</a><br>  branch: master<br>后面一种写法是hexo2.x的写法，现在已经不行了，无论是哪种写法，此时直接执行hexo d的话一般会报如下错误：<br>Deployer not found: github 或者 Deployer not found: git<br>原因是还需要安装一个插件：<br>npm install hexo-deployer-git –save<br>其它命令不确定，部署这个命令一定要用git bash，否则会提示Permission denied (publickey).<br>打开你的git bash，输入hexo d就会将本次有改动的代码全部提交，没有改动的不会：</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/07/16/yrl-first-blog/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
